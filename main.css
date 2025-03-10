@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+.hero{
+}
+.hero__wrapper{
+    justify-content: space-evenly;
+    display:flex ;
+    align-items: center;
+    padding-top: 130px;
+    padding-bottom: 257px;
+}
+.title{
+    width: 447px;
+    font-family: "roboto";
+    font-weight: 700;
+    font-size: 64px;
+}
+.hero__title{
+    width: 464px;
+    margin-top: 47px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "roboto";
+}
+.btn{
+    width:193px ;
+    padding: 20px;
+    border: none;
+    font-weight: 500;
+    font-size: 16px;
+    color: #ffffff;
+    margin-top: 47px;
+    border-radius: 100px;
+    background-color: green;
+}
+.img{
+    position: relative;
+}
+.img2{
+    position: absolute;
+top: -90px;
+animation-name: bot;
+animation-duration: 2s;
+animation-iteration-count: infinite;
+
+}
+.header{
+    padding-top: 22px;
+    background-color: #ffffff;
+}
+.container{
+    min-width: 1240px;
+    width: 100%;
+    margin: 0 auto;
+}
+.header__nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__list{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.header__link{
+    color: #333333;
+    font-size: 12px;
+    font-weight: 700;
+}
+.header__link:hover{
+    color: red;
+}
