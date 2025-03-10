@@ -5,8 +5,7 @@
     text-decoration: none;
     list-style: none;
 }
-.hero{
-}
+
 .hero__wrapper{
     justify-content: space-evenly;
     display:flex ;
